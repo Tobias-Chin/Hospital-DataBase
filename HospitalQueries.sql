@@ -1,4 +1,4 @@
--- Group 15:Dennis Field,Tanya Khan, Tobias Chin 
+
 -----------------
 -- Drop Tables --
 -----------------
@@ -491,7 +491,7 @@ INSERT INTO RoomAccess (roomNum, EmpID) VALUES (103, 21);
 -------------
 
 /* Query 1 - Report the id, specialty, gender and school of graduation for doctors that have
-graduated from WPI (“WPI”)*/
+graduated from WPI (Â“WPIÂ”)*/
 
 SELECT  D.EmployeeID,  D.specialty,  D.gender,  D.GraduatedFrom
 FROM   Doctor D
@@ -521,7 +521,7 @@ FROM patient p
 JOIN Admission a ON a.patient_ssn = p.pssn
 GROUP BY p.pssn, p.firstname, p.lastname;
 
-/* Query 5 - Report the room number that has an equipment unit with serial number ‘A01-02X’*/
+/* Query 5 - Report the room number that has an equipment unit with serial number Â‘A01-02XÂ’*/
 
 SELECT roomNum
 FROM Equipment e
@@ -556,7 +556,7 @@ GROUP BY empRank
 ORDER BY empRank ASC;
 
 /* Query 8 - For patients who have a scheduled future visit (which is part of their most recent visit),
-report that patient’s SSN, first name, and last name, and the visit date. Do not report
+report that patientÂ’s SSN, first name, and last name, and the visit date. Do not report
 patients who do not have a scheduled visit. */
 
 SELECT p.pSSN, p.FirstName, p.LastName, a.FutureVisit
