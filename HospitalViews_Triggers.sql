@@ -1,4 +1,4 @@
--- Group 15:Dennis Field,Tanya Khan, Tobias Chin 
+
 -----------------
 -- Drop Tables --
 -----------------
